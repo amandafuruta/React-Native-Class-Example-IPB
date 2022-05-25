@@ -128,6 +128,7 @@ function NavBlog() {
   return (
     <Stack.Navigator
       screenOptions={{
+        headerShown: false,
         headerStyle: styles.headerBG,
         headerTintColor: '#eee',
         headerTitleStyle: styles.headerBold
